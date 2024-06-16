@@ -9,5 +9,3 @@ sudo systemctl enable sshd
 sudo firewall-cmd --permanent --add-service=ssh
 sudo firewall-cmd --reload
 sudo systemctl status sshd
-
-
