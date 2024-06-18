@@ -1,4 +1,11 @@
+
+curl https://github.com
+nslookup github.com
+sudo systemctl stop firewalld
+sudo systemctl start firewalld
+
 #备份
+
 sudo mv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.bak
 
 # Step 2: 下载 163 的 YUM 源文件
